@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     cout << "Bitte geben Sie die Zeit in Stunden, Minuten und Sekunden ein:\n";
     cin >> stunden >> minuten >> sekunden;
     sekunden_gesamt = dauerInSekunden(stunden, minuten, sekunden);
-    cout << stunden << " Stunden " << minuten << " Minuten " << sekunden << " Sekunden " << " sind ingesamt " << sekunden_gesamt << " Sekunden" << endl;
+    cout << stunden << " Stunden " << minuten << " Minuten " << sekunden << " Sekunden " << " sind ingesamt: " << sekunden_gesamt << " Sekunden" << endl;
     return 0;
 }
 
